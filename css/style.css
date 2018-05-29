@@ -1,0 +1,13 @@
+/*Body*/
+body{
+	background-color: #708090;
+}
+/*Card*/
+.Card{
+	width: 344px;
+	height: 442px;
+}
+/*Botões*/
+.btn{
+	background-color: #008B8B;
+}
