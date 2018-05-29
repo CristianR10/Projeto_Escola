@@ -17,7 +17,7 @@
 	</form>
 
 	<?php 
-		if (!isset($_POST['enviar'])) {
+		if ($_POST) {
 			$senha1 = $_POST['senha1'];
 			$senha2 = $_POST['senha2'];
 		if ($senha1 == "") {
