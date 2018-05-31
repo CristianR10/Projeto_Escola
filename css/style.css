@@ -1,13 +1,55 @@
 /*Body*/
 body{
-	background-color: #708090;
+	background-color: #3CB371;
+	margin: 0;
 }
 /*Card*/
-.Card{
-	width: 344px;
-	height: 442px;
+.card{
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	width: 346px;
+	height: 444px
 }
 /*Botões*/
 .btn{
 	background-color: #008B8B;
+}
+hr {
+   border-width: 2px;
+   width: 300px;
+}
+/*Inputs*/
+.us, .se{
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	width: 315px;
+}
+/* Formulário*/
+form{
+	position: absolute;
+	top: 20%;
+
+}
+.selecao{
+	position: absolute;
+	left: 40%;
+	top: 25%;
+}
+/*footer*/
+footer{
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+  color: white;
+}
+.footer-bottom{
+  background: #DAA520;
+  padding: 2em;
 }
